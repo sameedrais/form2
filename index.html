@@ -1,0 +1,215 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    body{
+        height: auto; 
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+   
+    }
+
+    p{
+        color: red;
+    }
+
+       
+    
+    div[class="account form"]{
+    
+    
+    background-color:rgb(232, 232, 232);
+    
+    
+    width: auto;
+   
+}
+h2{
+    background-color:rgb(135, 135, 135);
+    
+}
+label{
+    margin-left: 20%;
+    
+    
+   
+   
+}
+
+
+input[class="1"]{
+    padding: 1px;
+    border-radius: 5px;
+    ;
+    
+    
+}
+select,option{
+    padding: 1px;
+    width: 175px;
+    border-radius: 5px;
+
+}
+div[class="Education"]{
+    background-color:rgb(232, 232, 232);
+    
+    
+    width: auto;
+    height: auto;
+    padding-bottom: 20px;
+
+}
+div[class="Education Status"] {
+    width: 175px;
+    background-color:rgb(232, 232, 232);
+         margin-left: 37%;
+     border-radius: 5px;
+     padding-left:5px;
+     width: 180px;
+}
+   div[class="work expreience"]{
+
+    background-color:rgb(232, 232, 232);
+    
+    width: auto;
+    height: auto;
+    padding-bottom: 20px;
+
+   }
+     
+    textarea{
+        
+    border-radius: 5px;
+    width: 175px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    }
+
+    div[class="attachment"]{
+        background-color:rgb(232, 232, 232);    
+    width: auto;
+    height: auto;
+    padding-bottom: 20px;
+    }
+    
+    button{
+        background-color: red;
+        color: white;
+        margin-left: 30%;
+
+    }
+
+</style>
+</head>
+<body>
+    <form>
+    <h1 >Create Your Account</h1>
+    <p>* Required information</p>
+
+    <div class="account form">
+
+    <h2>Basic Information</h2>
+   &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<label for="email">Email</label>
+    <input class="1" type="email" id="email" name="email"  placeholder="Enter your Email" maxlength="35" ><br><br>
+
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp <label for="psw">Password</label>
+    <input class="1" type="password" placeholder="Enter Password" name="psw" id="psw" required><br><br>
+
+    <label for="psw-retype">Retype Password</label>
+    <input class="1" type="password" placeholder="Repeat Password" name="psw-retype" id="psw-retype" required><br><br>
+ 
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp<label for="fname">First Name</label>
+  <input class="1" type="text" id="fname" name="fname" maxlength="35"><br><br>
+ 
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp<label for="lname">Last Name</label>
+  <input class="1" type="text" id="lname" name="lname" maxlength="35"><br><br>
+ 
+  &nbsp&nbsp&nbsp<label for="phone">Phone Number</label>
+  <input class="1" type="tel" id="phone" name="phone" placeholder="0000-0000000" maxlength="11"><br><br>
+
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<label for="text">Address</label>
+  <input class="1" type="text" id="text"  placeholder="Enter your Address"><br><br>
+
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<label for="text">City</label>
+  <input  class="1"type="text"   placeholder="Enter your City"><br><br>
+
+  
+
+
+  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<label >Province</label>
+
+  <select style="width: 175px"  >
+    <option value="">Select state</option>
+    <option value="JK">Azad Kashmir</option>
+    <option value="BA">Balochistan</option>
+    <option value="TA">Federally Administered Tribal Areas</option>
+    <option value="GB">Gilgit-Baltistan</option>
+    <option value="IS">Islamabad Capital Territory</option>
+    <option value="KP">Khyber Pakhtunkhwa</option>
+    <option value="PB">Punjab</option>
+    <option value="SD">Sindh</option>
+</select>
+<br><br>
+&nbsp&nbsp&nbsp&nbsp &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<label for="text">Country</label>
+  <input class="1" type="text"   placeholder="Enter your Country"><br><br>
+  </div>
+  <br>
+  <div class="Education">
+<h2>Education</h2>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<label for="text">School</label>
+<input class="1" type="" id="text"  placeholder="Enter your School Name"><br><br>
+
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<label for="text">Program</label>
+<input class="1" type="" id="text"  placeholder="Enter your Program"><br><br>
+
+ <label style="margin-left: 38%;">Education Status___</label>
+<div class="Education Status">
+   
+    
+    <input class="2"  type="radio" name="graduated" id="graduated" >Graduated <br>
+
+    
+    <input class="2" type="radio" name="enrolled" id="enrolled"> Current Enrolled <br>
+
+    
+    <input class="2" type="radio" name="do not graduated" id="do not graduated">Do Not Graduated <br/>
+<br>
+</div>
+<br>
+<label for="graduation date">Graduation Date</label>
+<input class="1" type="text">
+  </div>
+<div class="work expreience">
+    <h2>Work Expreience</h2>
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<label for="empolyee">Empolyee</label>
+<input class="1" type="text"> <br><br>
+
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<label for="job title">Job Title</label>
+<input class="1" type="text"> <br><br>
+
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<label>Job Duty</label>
+<textarea  rows="4" cols="50" maxlength="49">
+    </textarea> <br><br>
+
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<label for="work expreience">Expreience</label>
+<input class="1" type="number"><br><br>
+</div>
+<div  class="attachment"> 
+    <h2>Attachment</h2>
+  
+    <label for="myfile" style="margin-right: 60px;" >Select a file:</label>
+<input class="1" type="file" id="myfile" name="myfile"><br><br>
+<button type="submit" value="Submit">Submit</button>
+  <button type="reset" value="Reset">Reset</button>
+
+</div>
+  <br>
+</form>
+</body>
+</html>
